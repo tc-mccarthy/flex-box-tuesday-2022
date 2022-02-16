@@ -112,6 +112,15 @@ figcaption {
   .mobile {
     display: none;
   }
+
+  .collage {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .collage > div {
+    flex-basis: 30%;
+  }
 }
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
